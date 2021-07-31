@@ -25,8 +25,7 @@ in any order you like — you almost certainly won't complete them all.
   maps, hashes, or associative arrays).
 
 * **[Automatically detect track information just by giving the file
-  path.](#automatically-detect-track-information-just-by-giving-the-file-path)**
-
+  path.](#automatically-detect-track-information-just-by-giving-the-file-path)**  
   To learn about installing packages in Python and develop your mocking skills.
 
 * **[Show a song playing progress bar.](#show-a-song-playing-progress-bar)**  
