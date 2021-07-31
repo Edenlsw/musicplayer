@@ -5,7 +5,7 @@ you might choose depending on what you want to learn, how much challenge you
 want to take on, and how much structure or freedom you would like. Tackle them
 in any order you like — you almost certainly won't complete them all.
 
-* **[Refactor Track Formatting.](#refactor-track-formatting)**
+* **[Refactor Track Formatting.](#refactor-track-formatting)**  
   Kez has left a lot of repetition when it comes to generating 'Song by Artist'
   strings. Let's fix that. You'll get your hands dirty modifying the interface
   and tests, and learn some Python best practices.
