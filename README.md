@@ -1,6 +1,6 @@
 # Python Challenges
 
-_Coaching this? Read the coach guidance [here.](https://github.com/makersacademy/slug/blob/main/materials/universe/language_intros/challenges/python/README.ed.md)_
+_Coaching this? Read the coach guidance [here.](https://github.com/makersacademy/slug/blob/main/materials/universe/language_intros/challenges/python/README.ed.md#how-to-coach-this)_
 
 In this module you will learn Python. Python is, by most accounts, one of the
 top three most popular programming languages in use today. <!-- OMITTED -->

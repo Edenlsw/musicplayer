@@ -170,7 +170,7 @@ class MusicLibrary:
                 found.append(track)
             elif field == "artist" and query in track.artist.lower():
                 found.append(track)
-            elif field == "artist" and query in track.file.lower():
+            elif field == "file" and query in track.file.lower():
                 found.append(track)
             elif (
                 field == "any"
