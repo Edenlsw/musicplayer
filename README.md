@@ -1,4 +1,4 @@
-# Python Challenges
+# Python Challenges.
 
 _Coaching this? Read the coach guidance [here.](https://github.com/makersacademy/slug/blob/main/materials/universe/language_intros/challenges/python/README.ed.md#how-to-coach-this)_
 
