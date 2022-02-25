@@ -1,7 +1,7 @@
 # Don't edit this file until you're told to.
 # If you do, the rest of the module won't work!
 
-from player.music_library import MusicLibrary
+from player.music_library import MusicLibrary, Track
 
 
 class Interface:
@@ -35,12 +35,15 @@ class Interface:
     def _add_track(self):
         title = self.console.input("What's the title? ")
         artist = self.console.input("What's the artist? ")
-        self.music_library.add(f"{title} by {artist}")
+        file = self.console.input("What's the file? ")
+        self.music_library.add(Track(title, artist, file))  # We pass the Track in.
         self.console.print("Added successfully.")
 
     def _list_tracks(self):
         for idx, track in enumerate(self.music_library.all()):
-            self.console.print(f"{idx + 1}. {track}")
+            self.console.print(
+                f"{idx + 1}. {track.title} by {track.artist} @ {track.file}"
+            )
 
     def _remove_track(self):
         self._list_tracks()
