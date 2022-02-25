@@ -9,10 +9,7 @@ class TestMusicLibrary(unittest.TestCase):
         MusicLibrary()
 
     def test_addsongs(self):
-        track = Track("The Boys of Summer", "DJ Sammy", "summer.mp3")
-
         music_library = MusicLibrary()
-        music_library.add(track)
 
         music_library.add("Rolling Blackouts by The Go! Team")
         music_library.add("Oh Yeah by Locust")
@@ -51,7 +48,7 @@ class TestMusicLibrary(unittest.TestCase):
 # -----======================================================== track tests
 class TestTrack(unittest.TestCase):
     def test_constructs(self):
-        Track()
+        Track("The Boys of Summer", "DJ Sammy", "summer.mp3")
 
     def test_track(self):
         track = Track("The Boys of Summer", "DJ Sammy", "summer.mp3")
