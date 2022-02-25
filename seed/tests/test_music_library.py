@@ -53,6 +53,8 @@ class TestTrack(unittest.TestCase):
     def test_track(self):
         track = Track("The Boys of Summer", "DJ Sammy", "summer.mp3")
         self.assertEqual(track.title, "The Boys of Summer")
+        self.assertEqual(track.artist, "DJ Sammy")
+        self.assertEqual(track.file, "summer.mp3")
   
 
 
